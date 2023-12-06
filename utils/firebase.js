@@ -3,13 +3,13 @@ import "firebase/compat/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "xxxxxxxxx",
-  authDomain: "xxxxxxx",
-  projectId: "xxxxxxxx",
-  storageBucket: "xxxxxxxx",
-  messagingSenderId: "xxxxxxxxx",
-  appId: "xxxxxxxxx",
-  measurementId: "xxxxxxxx"
+  apiKey: "AIzaSyA5XKwWgBS9CK-Looxv6OquTB5ZmGRfpuI",
+  authDomain: "chattin-d636e.firebaseapp.com",
+  projectId: "chattin-d636e",
+  storageBucket: "chattin-d636e.appspot.com",
+  messagingSenderId: "998225057858",
+  appId: "1:998225057858:web:ba97457f750ac6912175db",
+  measurementId: "G-161PSR9ZQP"
 };
 
 let app;
