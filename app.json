@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "deliveroo",
+    "slug": "deliveroo",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.kama.deliveroo",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBdollaFcSPHmTz8nkdItJBAe92LRZ-WWc"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBdollaFcSPHmTz8nkdItJBAe92LRZ-WWc"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mish_kama.deliveroo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "711b697f-0f0b-49dd-b1c7-7f182ade0c7c"
+      }
+    }
+  }
+}
