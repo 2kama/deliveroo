@@ -21,13 +21,13 @@
       "supportsTablet": true,
       "bundleIdentifier": "io.kama.deliveroo",
       "config": {
-        "googleMapsApiKey": "AIzaSyBdollaFcSPHmTz8nkdItJBAe92LRZ-WWc"
+        "googleMapsApiKey": process.env.GOOGLE_API_KEY
       }
     },
     "android": {
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBdollaFcSPHmTz8nkdItJBAe92LRZ-WWc"
+          "apiKey": process.env.GOOGLE_API_KEY
         }
       },
       "adaptiveIcon": {
