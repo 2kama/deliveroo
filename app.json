@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "deliveroo",
-    "slug": "deliveroo",
+    "name": "deliveru",
+    "slug": "deliveru",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,22 +19,22 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "io.kama.deliveroo",
+      "bundleIdentifier": "io.kama.deliveru",
       "config": {
-        "googleMapsApiKey": process.env.GOOGLE_API_KEY
+        "googleMapsApiKey": ""
       }
     },
     "android": {
       "config": {
         "googleMaps": {
-          "apiKey": process.env.GOOGLE_API_KEY
+          "apiKey": ""
         }
       },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.mish_kama.deliveroo"
+      "package": "com.mish_kama.deliveru"
     },
     "web": {
       "favicon": "./assets/favicon.png"
