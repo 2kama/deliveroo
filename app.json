@@ -21,13 +21,13 @@
       "supportsTablet": true,
       "bundleIdentifier": "io.kama.deliveru",
       "config": {
-        "googleMapsApiKey": ""
+        "googleMapsApiKey": "YOUR_MAPS_API_KEY"
       }
     },
     "android": {
       "config": {
         "googleMaps": {
-          "apiKey": ""
+          "apiKey": "YOUR_MAPS_API_KEY"
         }
       },
       "adaptiveIcon": {
@@ -41,8 +41,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "711b697f-0f0b-49dd-b1c7-7f182ade0c7c"
+        "projectId": "8dcd5f02-d4d7-4f3e-9ede-3ed9aad08f84"
       }
-    }
+    },
+    "owner": "mish_kama"
   }
 }
