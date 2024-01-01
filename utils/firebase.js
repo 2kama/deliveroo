@@ -3,7 +3,7 @@ import "firebase/compat/firestore"
 
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: "YOUR API KEY",
   authDomain: "chattin-d636e.firebaseapp.com",
   projectId: "chattin-d636e",
   storageBucket: "chattin-d636e.appspot.com",

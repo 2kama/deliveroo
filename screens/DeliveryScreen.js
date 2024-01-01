@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { AntDesign } from '@expo/vector-icons'
 import * as Progress from 'react-native-progress'
 import color from '../utils/color'
-import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps'
+import MapView, { Marker } from 'react-native-maps'
 import { emptyBasket } from '../store/slices/basketSlice'
 
 const DeliveryScreen = () => {
@@ -61,8 +61,7 @@ const DeliveryScreen = () => {
             longitudeDelta: 0.009,
         }}
         className="flex-1 -mt-10 z-0"
-        mapType='mutedStandard'
-        provider={PROVIDER_GOOGLE}
+        mapType="standard"
       >
         <Marker
             coordinate={{
